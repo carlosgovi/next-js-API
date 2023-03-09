@@ -1,8 +1,18 @@
 {
-  "name": "next-js-API",
+  "name": "next-js-api",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:carlosgovi/next-js-API.git",
   "author": "carlosgovi <cgovi66@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next"
+  },
+  "dependencies": {
+    "next": "^13.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
